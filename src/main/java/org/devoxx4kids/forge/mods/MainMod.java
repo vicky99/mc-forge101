@@ -19,6 +19,7 @@ public class MainMod {
 		MinecraftForge.EVENT_BUS.register(new CreeperSpawnAlert());
 		MinecraftForge.EVENT_BUS.register(new ExplodingAnvils());
 		MinecraftForge.EVENT_BUS.register(new BlockBreak());
+		MinecraftForge.EVENT_BUS.register(new ExplodingMinecarts());
 
 	}
 }
