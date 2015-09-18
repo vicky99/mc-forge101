@@ -16,11 +16,12 @@ public class MainMod {
 	public void init(FMLInitializationEvent event) {
 		MinecraftForge.EVENT_BUS.register(new ChatItems());
 		MinecraftForge.EVENT_BUS.register(new DragonSpawner());
-		MinecraftForge.EVENT_BUS.register(new CreeperSpawnAlert());
+		//MinecraftForge.EVENT_BUS.register(new CreeperSpawnAlert());
 		MinecraftForge.EVENT_BUS.register(new ExplodingAnvils());
-		MinecraftForge.EVENT_BUS.register(new BlockBreak());
+		//MinecraftForge.EVENT_BUS.register(new BlockBreak());
 		MinecraftForge.EVENT_BUS.register(new ExplodingMinecarts());
 		MinecraftForge.EVENT_BUS.register(new DiamondOreTrap());
+		MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
 
 	}
 }
