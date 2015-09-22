@@ -23,6 +23,7 @@ public class MainMod {
 		MinecraftForge.EVENT_BUS.register(new DiamondOreTrap());
 		MinecraftForge.EVENT_BUS.register(new BiggerTNTExplosions());
 		MinecraftForge.EVENT_BUS.register(new PigsDroppings());
+		MinecraftForge.EVENT_BUS.register(new ZombieKnights());
 
 	}
 }
