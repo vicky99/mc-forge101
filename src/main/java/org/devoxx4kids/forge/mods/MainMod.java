@@ -25,6 +25,7 @@ public class MainMod {
 		MinecraftForge.EVENT_BUS.register(new PigsDroppings());
 		MinecraftForge.EVENT_BUS.register(new ZombieKnights());
 		MinecraftForge.EVENT_BUS.register(new MooMod());
+		MinecraftForge.EVENT_BUS.register(new Creepers());
 
 	}
 }
