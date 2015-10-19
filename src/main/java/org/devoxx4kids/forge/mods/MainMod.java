@@ -38,7 +38,7 @@ public class MainMod {
 		MinecraftForge.EVENT_BUS.register(new MooMod());
 		MinecraftForge.EVENT_BUS.register(new Creepers());
 		MinecraftForge.EVENT_BUS.register(new EnderouseEndermen());
-
+		MinecraftForge.EVENT_BUS.register(new SuperJump());
 
 	}
 }
