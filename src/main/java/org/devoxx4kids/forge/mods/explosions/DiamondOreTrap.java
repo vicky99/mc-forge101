@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.explosions;
 
 import net.minecraft.init.Blocks;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;

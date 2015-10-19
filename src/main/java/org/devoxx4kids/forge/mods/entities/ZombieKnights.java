@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.entities;
 
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.init.Items;

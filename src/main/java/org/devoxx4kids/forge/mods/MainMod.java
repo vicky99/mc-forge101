@@ -1,5 +1,16 @@
 package org.devoxx4kids.forge.mods;
 
+import org.devoxx4kids.forge.mods.entities.Creepers;
+import org.devoxx4kids.forge.mods.entities.DragonSpawner;
+import org.devoxx4kids.forge.mods.entities.PigsDroppings;
+import org.devoxx4kids.forge.mods.entities.ZombieKnights;
+import org.devoxx4kids.forge.mods.explosions.BiggerTNTExplosions;
+import org.devoxx4kids.forge.mods.explosions.DiamondOreTrap;
+import org.devoxx4kids.forge.mods.explosions.EnderouseEndermen;
+import org.devoxx4kids.forge.mods.explosions.ExplodingAnvils;
+import org.devoxx4kids.forge.mods.explosions.ExplodingMinecarts;
+import org.devoxx4kids.forge.mods.movement.SuperJump;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;
 import net.minecraftforge.fml.common.Mod;

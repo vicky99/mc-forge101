@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.entities;
 
 import java.util.List;
 

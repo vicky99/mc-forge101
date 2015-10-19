@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.explosions;
 
 import java.util.Random;
 
@@ -30,6 +30,7 @@ public class EnderouseEndermen {
 			return;
 		}
 		EntityEnderman enderman = (EntityEnderman) event.entity;
-		enderman.func_175490_a(Blocks.tnt.getDefaultState());
+		/* Give a block to enderman */
+		enderman.func_175490_a(Blocks.end_stone.getDefaultState());
 	}
 }

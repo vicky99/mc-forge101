@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.entities;
 
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.entity.monster.EntitySlime;

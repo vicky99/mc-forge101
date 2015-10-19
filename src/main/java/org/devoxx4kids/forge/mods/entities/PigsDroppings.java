@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.entities;
 
 import scala.util.Random;
 import net.minecraft.entity.item.EntityItem;

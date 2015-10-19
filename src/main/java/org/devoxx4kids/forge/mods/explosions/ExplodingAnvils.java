@@ -1,4 +1,4 @@
-package org.devoxx4kids.forge.mods;
+package org.devoxx4kids.forge.mods.explosions;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
