@@ -9,6 +9,7 @@ import org.devoxx4kids.forge.mods.explosions.DiamondOreTrap;
 import org.devoxx4kids.forge.mods.explosions.EnderouseEndermen;
 import org.devoxx4kids.forge.mods.explosions.ExplodingAnvils;
 import org.devoxx4kids.forge.mods.explosions.ExplodingMinecarts;
+import org.devoxx4kids.forge.mods.movement.BouncySponge;
 import org.devoxx4kids.forge.mods.movement.SuperJump;
 
 import net.minecraftforge.common.MinecraftForge;
@@ -38,7 +39,8 @@ public class MainMod {
 		MinecraftForge.EVENT_BUS.register(new MooMod());
 		MinecraftForge.EVENT_BUS.register(new Creepers());
 		MinecraftForge.EVENT_BUS.register(new EnderouseEndermen());
-		MinecraftForge.EVENT_BUS.register(new SuperJump());
+		//MinecraftForge.EVENT_BUS.register(new SuperJump());
+		MinecraftForge.EVENT_BUS.register(new BouncySponge());
 
 	}
 }
